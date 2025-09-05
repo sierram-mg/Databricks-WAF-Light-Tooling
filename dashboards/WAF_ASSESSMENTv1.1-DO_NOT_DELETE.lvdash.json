@@ -3144,6 +3144,33 @@
                     ],
                     "type": "string",
                     "displayAs": "string",
+                    "cellFormat": {
+                      "default": {
+                        "foregroundColor": null
+                      },
+                      "rules": [
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "Yes"
+                          },
+                          "value": {
+                            "foregroundColor": "#049968"
+                          }
+                        },
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "No"
+                          },
+                          "value": {
+                            "foregroundColor": "#FA2D18"
+                          }
+                        }
+                      ]
+                    },
                     "displayName": "implemented"
                   },
                   {
@@ -4785,6 +4812,23 @@
                     "highlightLinks": false,
                     "useMonospaceFont": false,
                     "preserveWhitespace": false,
+                    "cellFormat": {
+                      "default": {
+                        "foregroundColor": null
+                      },
+                      "rules": [
+                        {
+                          "if": {
+                            "column": "practice",
+                            "fn": "=",
+                            "literal": ""
+                          },
+                          "value": {
+                            "foregroundColor": null
+                          }
+                        }
+                      ]
+                    },
                     "displayName": "practice"
                   },
                   {
@@ -4839,6 +4883,33 @@
                     "highlightLinks": false,
                     "useMonospaceFont": false,
                     "preserveWhitespace": false,
+                    "cellFormat": {
+                      "default": {
+                        "foregroundColor": null
+                      },
+                      "rules": [
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "Yes"
+                          },
+                          "value": {
+                            "foregroundColor": "#049968"
+                          }
+                        },
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "No"
+                          },
+                          "value": {
+                            "foregroundColor": "#FA2D18"
+                          }
+                        }
+                      ]
+                    },
                     "displayName": "implemented"
                   }
                 ]
@@ -5123,6 +5194,33 @@
                     "highlightLinks": false,
                     "useMonospaceFont": false,
                     "preserveWhitespace": false,
+                    "cellFormat": {
+                      "default": {
+                        "foregroundColor": null
+                      },
+                      "rules": [
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "Yes"
+                          },
+                          "value": {
+                            "foregroundColor": "#049968"
+                          }
+                        },
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "No"
+                          },
+                          "value": {
+                            "foregroundColor": "#FA2D18"
+                          }
+                        }
+                      ]
+                    },
                     "displayName": "implemented"
                   }
                 ]
@@ -8013,6 +8111,33 @@
                     "highlightLinks": false,
                     "useMonospaceFont": false,
                     "preserveWhitespace": false,
+                    "cellFormat": {
+                      "default": {
+                        "foregroundColor": null
+                      },
+                      "rules": [
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "Yes"
+                          },
+                          "value": {
+                            "foregroundColor": "#049968"
+                          }
+                        },
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "No"
+                          },
+                          "value": {
+                            "foregroundColor": "#FA2D18"
+                          }
+                        }
+                      ]
+                    },
                     "displayName": "implemented"
                   }
                 ]
@@ -9043,6 +9168,33 @@
                     "highlightLinks": false,
                     "useMonospaceFont": false,
                     "preserveWhitespace": false,
+                    "cellFormat": {
+                      "default": {
+                        "foregroundColor": null
+                      },
+                      "rules": [
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "Yes"
+                          },
+                          "value": {
+                            "foregroundColor": "#049968"
+                          }
+                        },
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "No"
+                          },
+                          "value": {
+                            "foregroundColor": "#FA2D18"
+                          }
+                        }
+                      ]
+                    },
                     "displayName": "implemented"
                   }
                 ]
@@ -9327,6 +9479,33 @@
                     "highlightLinks": false,
                     "useMonospaceFont": false,
                     "preserveWhitespace": false,
+                    "cellFormat": {
+                      "default": {
+                        "foregroundColor": null
+                      },
+                      "rules": [
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "Yes"
+                          },
+                          "value": {
+                            "foregroundColor": "#049968"
+                          }
+                        },
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "No"
+                          },
+                          "value": {
+                            "foregroundColor": "#FA2D18"
+                          }
+                        }
+                      ]
+                    },
                     "displayName": "implemented"
                   }
                 ]
@@ -9611,6 +9790,33 @@
                     "highlightLinks": false,
                     "useMonospaceFont": false,
                     "preserveWhitespace": false,
+                    "cellFormat": {
+                      "default": {
+                        "foregroundColor": null
+                      },
+                      "rules": [
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "Yes"
+                          },
+                          "value": {
+                            "foregroundColor": "#049968"
+                          }
+                        },
+                        {
+                          "if": {
+                            "column": "implemented",
+                            "fn": "=",
+                            "literal": "No"
+                          },
+                          "value": {
+                            "foregroundColor": "#FA2D18"
+                          }
+                        }
+                      ]
+                    },
                     "displayName": "implemented"
                   }
                 ]
